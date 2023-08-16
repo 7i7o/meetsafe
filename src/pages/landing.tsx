@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import logo from "~/assets/logo.svg";
 import { varela } from "~/utils/fonts";
@@ -18,6 +19,9 @@ const MainPage: React.FC = () => {
         <a href="#" className="hover:underline">
           Why MeetSafe
         </a>
+        <Link href="/login">
+          Login
+        </Link>
       </div>
       <div
         className="absolute inset-0"
