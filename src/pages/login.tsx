@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+
 import React from "react";
 import Image from "next/image";
 import logo from "~/assets/logo.svg";
