@@ -43,14 +43,14 @@ const MainPage: React.FC = () => {
         {/* <button */}
         <Link
           href="login"
-          className="shadow- rounded-full bg-gradient-to-tr from-[#b578b0] to-[#c18c92] px-24 py-3 text-2xl font-bold text-white hover:bg-blue-600"
+          className="shadow- rounded-full bg-gradient-to-tr from-[#b578b0] to-[#c18c92] px-24 py-3 text-2xl font-bold text-white"
           style={{ boxShadow: "0 8px #3a3a39" }}
         >
           Join MeetSafe
         </Link>
         {/* </button> */}
         <button
-          className="rounded-full bg-[#fce93a] px-10 py-3 text-2xl font-bold text-[#2d2d2c] hover:bg-gray-400"
+          className="rounded-full bg-[#fce93a] px-10 py-3 text-2xl font-bold text-[#2d2d2c]"
           style={{ boxShadow: "0 8px #3a3a39" }}
         >
           enter as spectator
