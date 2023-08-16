@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Landing_page" data-name="Landing page" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="45 15 100 120">
+  <defs>
+    <linearGradient id="Degradado_sin_nombre_73" data-name="Degradado sin nombre 73" x1="51.81" y1="76.58" x2="110.26" y2="76.58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b578b0"/>
+      <stop offset=".89" stop-color="#fcea0d"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_73-2" data-name="Degradado sin nombre 73" x1="64.97" y1="98.1" x2="97.1" y2="98.1" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-3" data-name="Degradado sin nombre 73" x1="47.32" y1="82.7" x2="105.76" y2="82.7" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-4" data-name="Degradado sin nombre 73" x1="58.58" y1="104.22" x2="94.9" y2="104.22" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-5" data-name="Degradado sin nombre 73" x1="80.45" y1="68.54" x2="137.56" y2="68.54" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-6" data-name="Degradado sin nombre 73" x1="91.51" y1="47.02" x2="126.5" y2="47.02" xlink:href="#Degradado_sin_nombre_73"/>
+  </defs>
+  <!-- <text transform="translate(22.98 184.77)" style="fill: #fff; font-family: VarelaRound-Regular, &apos;Varela Round&apos;; font-size: 33.83px;"><tspan x="0" y="0" style="letter-spacing: -.01em;">M</tspan><tspan x="32.21" y="0">eetS</tspan><tspan x="104.28" y="0" style="letter-spacing: -.01em;">a</tspan><tspan x="122.85" y="0" style="letter-spacing: -.03em;">f</tspan><tspan x="134.8" y="0">e</tspan></text> -->
+  <g>
+    <g>
+      <path d="m109.59,54.06c0-15.77-12.79-28.56-28.56-28.56h0c-15.77,0-28.56,12.79-28.56,28.56v45.05c0,15.77,12.79,28.56,28.56,28.56h0c15.77,0,28.56-12.79,28.56-28.56v-45.05Zm-8.45,44.04c0,11-8.91,19.91-19.91,19.91-11,0-19.91-8.91-19.91-19.91,0-11,8.91-19.91,19.91-19.91,11,0,19.91,8.91,19.91,19.91Z" style="fill: none; stroke: url(#Degradado_sin_nombre_73); stroke-miterlimit: 10; stroke-width: 1.33px;"/>
+      <circle cx="81.04" cy="98.1" r="15.4" style="fill: none; stroke: url(#Degradado_sin_nombre_73-2); stroke-miterlimit: 10; stroke-width: 1.33px;"/>
+    </g>
+    <g style="fill: none; opacity: .37;">
+      <path d="m105.1,60.18c0-15.77-12.79-28.56-28.56-28.56h0c-15.77,0-28.56,12.79-28.56,28.56v45.05c0,15.77,12.79,28.56,28.56,28.56h0c15.77,0,28.56-12.79,28.56-28.56v-45.05Zm-8.45,44.04c0,11-8.91,19.91-19.91,19.91-11,0-19.91-8.91-19.91-19.91s8.91-19.91,19.91-19.91c11,0,19.91,8.91,19.91,19.91Z" style="fill: none; stroke: url(#Degradado_sin_nombre_73-3); stroke-miterlimit: 10; stroke-width: 1.33px;"/>
+      <circle cx="76.74" cy="104.22" r="17.5" style="fill: none; stroke: url(#Degradado_sin_nombre_73-4); stroke-miterlimit: 10; stroke-width: 1.33px;"/>
+    </g>
+    <g>
+      <path d="m76.54,89.46c0,15.77,12.79,28.56,28.56,28.56h0c15.77,0,28.56-12.79,28.56-28.56v-45.05c0-15.77-12.79-28.56-28.56-28.56h0c-15.77,0-28.56,12.79-28.56,28.56v45.05Zm8.45-44.04c0-11,8.91-19.91,19.91-19.91,11,0,19.91,8.91,19.91,19.91s-8.91,19.91-19.91,19.91c-11,0-19.91-8.91-19.91-19.91Z" style="fill: #3a3a39;"/>
+      <circle cx="105.1" cy="45.41" r="17.5" style="fill: #3a3a39;"/>
+    </g>
+    <g>
+      <path d="m80.45,91.06c0,15.77,12.79,28.56,28.56,28.56h0c15.77,0,28.56-12.79,28.56-28.56v-45.05c0-15.77-12.79-28.56-28.56-28.56h0c-15.77,0-28.56,12.79-28.56,28.56v45.05Zm8.45-44.04c0-11,8.91-19.91,19.91-19.91s19.91,8.91,19.91,19.91c0,11-8.91,19.91-19.91,19.91-11,0-19.91-8.91-19.91-19.91Z" style="fill: url(#Degradado_sin_nombre_73-5);"/>
+      <circle cx="109.01" cy="47.02" r="17.5" style="fill: url(#Degradado_sin_nombre_73-6);"/>
+    </g>
+  </g>
+</svg>
