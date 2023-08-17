@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Landing_page" data-name="Landing page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 113.7">
+  <rect x="55.85" y="21.38" width="272.3" height="59.54" rx="18.07" ry="18.07" style="fill: #fffee6; stroke: #efefdf; stroke-miterlimit: 10; stroke-width: .39px;"/>
+  <text transform="translate(268.38 60.11)" style="fill: #545452; font-family: Hind-Regular, Hind; font-size: 32.18px; opacity: .32;"><tspan x="0" y="0">(8)</tspan></text>
+  <polygon points="90.7 34.4 95.58 44.29 106.5 45.88 98.6 53.58 100.46 64.46 90.7 59.32 80.93 64.46 82.8 53.58 74.89 45.88 85.81 44.29 90.7 34.4" style="fill: #e2de6f; stroke: #efefdf; stroke-miterlimit: 10; stroke-width: .41px;"/>
+  <polygon points="129.65 34.4 134.53 44.29 145.45 45.88 137.55 53.58 139.41 64.46 129.65 59.32 119.88 64.46 121.74 53.58 113.84 45.88 124.76 44.29 129.65 34.4" style="fill: #e2de6f; stroke: #efefdf; stroke-miterlimit: 10; stroke-width: .41px;"/>
+  <polygon points="168.59 34.4 173.48 44.29 184.4 45.88 176.5 53.58 178.36 64.46 168.59 59.32 158.83 64.46 160.69 53.58 152.79 45.88 163.71 44.29 168.59 34.4" style="fill: #e2de6f; stroke: #efefdf; stroke-miterlimit: 10; stroke-width: .41px;"/>
+  <polygon points="207.54 34.4 212.43 44.29 223.34 45.88 215.44 53.58 217.31 64.46 207.54 59.32 197.78 64.46 199.64 53.58 191.74 45.88 202.66 44.29 207.54 34.4" style="fill: #e2de6f; stroke: #efefdf; stroke-miterlimit: 10; stroke-width: .41px;"/>
+  <polygon points="246.49 34.4 251.37 44.29 262.29 45.88 254.39 53.58 256.26 64.46 246.49 59.32 236.72 64.46 238.59 53.58 230.69 45.88 241.61 44.29 246.49 34.4" style="fill: none; stroke: #ddddd7; stroke-miterlimit: 10; stroke-width: .82px;"/>
+</svg>

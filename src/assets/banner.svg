@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 716.6 190.6">
+  <defs>
+    <clipPath id="clippath">
+      <rect width="716.6" height="190.6" style="fill: none;"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_73" data-name="Degradado sin nombre 73" x1="301.4" y1="105.57" x2="312.6" y2="105.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b578b0"/>
+      <stop offset=".89" stop-color="#fcea0d"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_73-2" data-name="Degradado sin nombre 73" x1="303.41" y1="105.57" x2="310.59" y2="105.57" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-3" data-name="Degradado sin nombre 73" x1="305.73" y1="105.57" x2="308.27" y2="105.57" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_19" data-name="Degradado sin nombre 19" x1="-9.06" y1="84.61" x2="744.82" y2="84.61" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#fcea0d"/>
+      <stop offset="1" stop-color="#b578b0"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_19-2" data-name="Degradado sin nombre 19" x1="-20.37" y1="97.89" x2="716.6" y2="97.89" xlink:href="#Degradado_sin_nombre_19"/>
+    <linearGradient id="Degradado_sin_nombre_73-4" data-name="Degradado sin nombre 73" x1="466.49" y1="-202.56" x2="531.96" y2="-202.56" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-5" data-name="Degradado sin nombre 73" x1="479.22" y1="-178.23" x2="519.68" y2="-178.23" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-6" data-name="Degradado sin nombre 73" x1="461.04" y1="-198.92" x2="526.51" y2="-198.92" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-7" data-name="Degradado sin nombre 73" x1="473.77" y1="-174.6" x2="514.23" y2="-174.6" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-8" data-name="Degradado sin nombre 73" x1="498.56" y1="-211.65" x2="563.12" y2="-211.65" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+    <linearGradient id="Degradado_sin_nombre_73-9" data-name="Degradado sin nombre 73" x1="511.06" y1="-235.97" x2="550.61" y2="-235.97" gradientTransform="translate(67.37 300.44)" xlink:href="#Degradado_sin_nombre_73"/>
+  </defs>
+  <g style="fill: none; isolation: isolate;">
+    <g id="Landing_page" data-name="Landing page">
+      <g style="clip-path: url(#clippath); fill: none;">
+        <g style="fill: none; mix-blend-mode: overlay; opacity: .6;">
+          <g>
+            <line x1="473.77" y1="160.24" x2="577.7" y2="56.31" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: .49px;"/>
+            <path d="m475.96,162.22c-1.15,1.15-3.02,1.15-4.17,0-1.15-1.15-1.15-3.02,0-4.17,1.15-1.15,3.02-1.15,4.17,0,1.15,1.15,1.15,3.02,0,4.17Z" style="fill: #fff;"/>
+            <path d="m579.68,58.5c1.15-1.15,1.15-3.02,0-4.17-1.15-1.15-3.02-1.15-4.17,0-1.15,1.15-1.15,3.02,0,4.17,1.15,1.15,3.02,1.15,4.17,0Z" style="fill: #fff;"/>
+          </g>
+        </g>
+        <g style="fill: none; opacity: .37;">
+          <circle cx="307" cy="105.57" r="5.35" style="fill: none; stroke: url(#Degradado_sin_nombre_73); stroke-miterlimit: 10; stroke-width: .5px;"/>
+          <circle cx="307" cy="105.57" r="3.34" style="fill: none; stroke: url(#Degradado_sin_nombre_73-2); stroke-miterlimit: 10; stroke-width: .5px;"/>
+          <circle cx="307" cy="105.57" r="1.27" style="fill: url(#Degradado_sin_nombre_73-3);"/>
+        </g>
+        <path d="m-9.06,204.5c26.2,7.03,53.93-4.65,75.91-20.93,21.97-16.29,40.48-37.23,63-52.7,35.71-24.52,80.97-33.83,123.09-25.31,31.4,6.35,60.55,22.02,92.1,27.57,31.55,5.55,69.19-2.53,84.55-31.45,2.58-4.86,4.41-10.1,6.98-14.96,10.16-19.22,30.69-30.39,51.3-35.74,35.88-9.32,73.72-4.19,110.07,2.92,18.2,3.56,36.72,7.62,55.09,5.13,39.36-5.32,68.96-38.91,91.79-72.36-16.15-9.55-34.93-13.13-53.41-15.44-101.3-12.68-203.56,8.08-305.6,8.41-103.19.33-207.6-20.14-308.77.77,23.76-1.22,47.51-2.43,71.27-3.65-19.52-14-45.03-14.3-68.82-14.09-15.17.14-31.42.62-43.75,9.72C21.88-17.37,16.63.97,12.26,17.94,4.28,48.93-3.74,80.22-5.14,112.24c-1.13,25.73,2.05,51.55.12,77.23" style="fill: url(#Degradado_sin_nombre_19);"/>
+        <path d="m-11.9-5.03h728.5v205.83H-20.37V3.45c0-4.68,3.8-8.47,8.47-8.47Z" style="fill: url(#Degradado_sin_nombre_19-2);"/>
+        <g style="fill: none; opacity: .48;">
+          <g>
+            <path d="m598.88,72.43c0-17.83-14.45-32.28-32.28-32.28h0c-17.83,0-32.28,14.45-32.28,32.28v50.92c0,17.83,14.45,32.28,32.28,32.28h0c17.83,0,32.28-14.45,32.28-32.28v-50.92Zm-9.55,49.78c0,12.43-10.08,22.5-22.5,22.5-12.43,0-22.5-10.08-22.5-22.5,0-12.43,10.08-22.5,22.5-22.5,12.43,0,22.5,10.08,22.5,22.5Z" style="fill: none; stroke: url(#Degradado_sin_nombre_73-4); stroke-miterlimit: 10; stroke-width: .91px;"/>
+            <circle cx="566.82" cy="122.21" r="19.78" style="fill: none; stroke: url(#Degradado_sin_nombre_73-5); stroke-miterlimit: 10; stroke-width: .91px;"/>
+          </g>
+          <g style="fill: none; opacity: .37;">
+            <path d="m593.43,76.06c0-17.83-14.45-32.28-32.28-32.28h0c-17.83,0-32.28,14.45-32.28,32.28v50.92c0,17.83,14.45,32.28,32.28,32.28h0c17.83,0,32.28-14.45,32.28-32.28v-50.92Zm-9.55,49.78c0,12.43-10.08,22.5-22.5,22.5-12.43,0-22.5-10.08-22.5-22.5,0-12.43,10.08-22.5,22.5-22.5,12.43,0,22.5,10.08,22.5,22.5Z" style="fill: none; stroke: url(#Degradado_sin_nombre_73-6); stroke-miterlimit: 10; stroke-width: .91px;"/>
+            <circle cx="561.38" cy="125.85" r="19.78" style="fill: none; stroke: url(#Degradado_sin_nombre_73-7); stroke-miterlimit: 10; stroke-width: .91px;"/>
+          </g>
+          <g>
+            <path d="m561.52,112.43c0,17.83,14.45,32.28,32.28,32.28h0c17.83,0,32.28-14.45,32.28-32.28v-50.92c0-17.83-14.45-32.28-32.28-32.28h0c-17.83,0-32.28,14.45-32.28,32.28v50.92Zm9.55-49.78c0-12.43,10.08-22.5,22.5-22.5,12.43,0,22.5,10.08,22.5,22.5,0,12.43-10.08,22.5-22.5,22.5-12.43,0-22.5-10.08-22.5-22.5Z" style="fill: #3a3a39;"/>
+            <circle cx="593.8" cy="62.65" r="19.78" style="fill: #3a3a39;"/>
+          </g>
+          <g>
+            <path d="m565.93,114.25c0,17.83,14.45,32.28,32.28,32.28h0c17.83,0,32.28-14.45,32.28-32.28v-50.92c0-17.83-14.45-32.28-32.28-32.28h0c-17.83,0-32.28,14.45-32.28,32.28v50.92Zm9.55-49.78c0-12.43,10.08-22.5,22.5-22.5,12.43,0,22.5,10.08,22.5,22.5,0,12.43-10.08,22.5-22.5,22.5-12.43,0-22.5-10.08-22.5-22.5Z" style="fill: url(#Degradado_sin_nombre_73-8);"/>
+            <circle cx="598.21" cy="64.47" r="19.78" style="fill: url(#Degradado_sin_nombre_73-9);"/>
+          </g>
+        </g>
+        <text transform="translate(188.53 118.26)" style="fill: #fff; font-family: Poppins-Regular, Poppins; font-size: 62.53px; opacity: .25;"><tspan x="0" y="0">Wellness</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
