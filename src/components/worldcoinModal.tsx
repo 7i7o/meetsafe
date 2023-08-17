@@ -1,6 +1,7 @@
 import Image from "next/image";
 import worldcoin from "~/assets/Worldcoin-Logo-Dark.png";
 import { hind, varela } from "~/utils/fonts";
+import { useAuth0 } from "@auth0/auth0-react";
 
 export type LandingModalProps = {
   showModal: boolean;
@@ -13,6 +14,12 @@ export default function WorldCoinModal(props: LandingModalProps) {
   const { showModal, setShowModal } = props;
 
   const closeModal = () => setShowModal(false);
+
+  const { loginWithRedirect } = useAuth0();
+
+  const verify = () => {
+    loginWithRedirect();
+  };
 
   return (
     <>
@@ -92,6 +99,7 @@ export default function WorldCoinModal(props: LandingModalProps) {
                   <button
                     className="items-center rounded-full bg-[#009f77] px-12 py-3 text-lg font-medium text-white"
                     style={{ boxShadow: "0 8px #b3b3b2" }}
+                    onClick={verify}
                   >
                     VERIFY&nbsp;IDENTITY
                   </button>

@@ -4,14 +4,20 @@ import Link from "next/link";
 import React from "react";
 import { signOut, useSession } from "next-auth/react";
 import router from "next/router";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function NavBar(props: { button: string }) {
   const { button } = props;
   const { status } = useSession();
 
+  const { loginWithRedirect } = useAuth0();
   const disconnect = async () => {
     await router.push("/");
     await signOut();
+  };
+
+  const verify = () => {
+    loginWithRedirect();
   };
 
   return (
@@ -64,6 +70,7 @@ function NavBar(props: { button: string }) {
         <button
           className="items-center rounded-full bg-[#009f77] px-12 py-3 text-lg font-medium text-white"
           style={{ boxShadow: "0 8px #b3b3b2" }}
+          onClick={verify}
         >
           VERIFY&nbsp;IDENTITY
         </button>
