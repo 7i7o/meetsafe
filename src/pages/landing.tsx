@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import logo from "~/assets/logo.svg";
+import NavBar from "~/components/NavBar";
 import LandingModal from "~/components/landingModal";
 import { hind, varela } from "~/utils/fonts";
 
@@ -13,7 +14,7 @@ const MainPage: React.FC = () => {
     <>
       <LandingModal showModal={showModal} setShowModal={setShowModal} />
       <div
-        className={`flex h-screen flex-col text-gray-200 ${varela.className}`}
+        className={`flex h-screen flex-col justify-center text-gray-200 ${varela.className}`}
       >
         <div
           className="absolute inset-0"
@@ -24,15 +25,8 @@ const MainPage: React.FC = () => {
             zIndex: "-1",
           }}
         />
+        <NavBar />
         <div className="flex flex-col items-center space-y-8">
-          <div className="ml-8 mt-8 flex w-full flex-row space-x-8 text-lg">
-            <a href="#" className="hover:underline">
-              Solutions
-            </a>
-            <a href="#" className="hover:underline">
-              Why MeetSafe
-            </a>
-          </div>
           <Image
             src={logo as string}
             alt="Logo"

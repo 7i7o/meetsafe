@@ -4,12 +4,14 @@ import React from "react";
 import { varela } from "~/utils/fonts";
 import lupa from "~/assets/lupa.svg";
 import Image from "next/image";
+import NavBar from "~/components/NavBar";
 
 function explorer() {
   return (
     <div
       className={`flex h-screen flex-col items-center justify-center text-gray-200 ${varela.className}`}
     >
+      <NavBar />
       <div
         className="absolute inset-0"
         style={{
