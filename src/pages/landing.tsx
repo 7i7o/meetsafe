@@ -60,7 +60,6 @@ const MainPage: React.FC = () => {
           >
             enter as spectator
           </button>
-          <div className="text-white">{JSON.stringify(showModal)}</div>
         </div>
       </div>
     </>
