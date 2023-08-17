@@ -13,6 +13,7 @@ import { type AppType } from "next/app";
 import { api } from "~/utils/api";
 import { WagmiConfig, createClient, configureChains, chain } from "wagmi";
 import { publicProvider } from "wagmi/providers/public";
+import { Auth0Provider } from '@auth0/auth0-react';
 
 import "~/styles/globals.css";
 
@@ -31,11 +32,20 @@ const MyApp: AppType<{ session: Session | null }> = ({
   pageProps: { session, ...pageProps },
 }) => {
   return (
-    <WagmiConfig client={client}>
-      <SessionProvider session={session}>
-        <Component {...pageProps} />
-      </SessionProvider>
-    </WagmiConfig>
+
+    <Auth0Provider
+      domain={"dev-dv4pexsy1xqw6v8y.us.auth0.com"}
+      clientId="I6EqG2lfPiblq4qlZyP4dCztYys10Djx"
+      authorizationParams={{
+        redirect_uri: process.env.NEXTAUTH_URL
+      }}
+    >
+      <WagmiConfig client={client}>
+        <SessionProvider session={session}>
+          <Component {...pageProps} />
+        </SessionProvider>
+      </WagmiConfig>
+    </Auth0Provider>
   );
 };
 
