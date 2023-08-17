@@ -13,7 +13,7 @@ function login() {
   return (
     <div className="flex h-full w-full flex-col">
       <div className={`${varela.className}`}>
-        <NavBar />
+        <NavBar button="" />
       </div>
       <div
         className={`${varela.className} flex h-screen w-full flex-row justify-center ${varela.className}`}
