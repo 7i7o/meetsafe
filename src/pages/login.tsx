@@ -3,8 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import logo from "~/assets/logo.svg";
-import logoWorldCoin from "~/assets/Worldcoin-Logo-Dark.png";
 import { varela } from "~/utils/fonts";
+import Siwe from "~/components/Siwe";
 
 //type Props = {}
 
@@ -40,9 +40,7 @@ function login() {
       <div className="flex h-screen w-1/2">
         <div className="flex w-full flex-col items-center justify-center gap-10">
           <span className="text-center text-5xl font-bold">Log in</span>
-          <button className="rounded-3xl border-2 border-solid	border-black transition-all hover:border-yellow-400">
-            <Image src={logoWorldCoin} alt="Logo" width={180} height={180} />
-          </button>
+          <Siwe />
         </div>
       </div>
     </div>
