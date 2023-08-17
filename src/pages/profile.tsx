@@ -10,9 +10,10 @@ import starts from "~/assets/stars.svg";
 import placeholderimage from "~/assets/placeholder.svg";
 import star from "~/assets/star.svg";
 
-type Props = {};
+function Profile() {
+  //const initial = 0;
+  // const [selected, setSelected] = useState(initial);
 
-function profile({ }: Props) {
   return (
     <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
       <NavBar />
@@ -72,12 +73,12 @@ function profile({ }: Props) {
             />
             <p className="w-[88%] self-center pr-24 text-[#545452]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also,Lorem Ipsum is simply
               dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s,
+              has been the industrys standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to
               make a type specimen book. It has survived not only five
               centuries, but also
@@ -86,6 +87,7 @@ function profile({ }: Props) {
           {
             // user profile
           }
+          <div className=""></div>
           <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
             <div className="flex h-full w-full flex-col gap-7 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
               <h5 className="text-3xl font-semibold">Languages</h5>
@@ -130,7 +132,7 @@ function profile({ }: Props) {
                 <div className="flex flex-col gap-2">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
+                    typesetting industry. Lorem Ipsum has been the industrys
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make a
                     type specimen book. It has survived not only five centuries,
@@ -209,4 +211,4 @@ function profile({ }: Props) {
   );
 }
 
-export default profile;
+export default Profile;
