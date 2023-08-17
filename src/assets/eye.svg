@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Landing_page" data-name="Landing page" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.69 87.66">
+  <defs>
+    <linearGradient id="Degradado_sin_nombre_73" data-name="Degradado sin nombre 73" x1="40.87" y1="49.23" x2="61.01" y2="49.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b578b0"/>
+      <stop offset=".89" stop-color="#fcea0d"/>
+    </linearGradient>
+  </defs>
+  <path d="m13.57,48.36c1.58-2.08,14.17-18.06,36.09-18.62,24.04-.62,37.96,17.85,39.15,19.5" style="fill: none; stroke: #606060; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3.99px;"/>
+  <path d="m88.81,49.23c-1.58,2.08-14.17,18.06-36.09,18.62-24.04.62-37.96-17.85-39.15-19.5" style="fill: none; stroke: #606060; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3.99px;"/>
+  <circle cx="50.94" cy="49.33" r="16.52" style="fill: none; stroke: #606060; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3.99px;"/>
+  <path d="m53.65,39.53c-2-.56-4.02-.47-5.85.13,1.28.52,2.18,1.78,2.18,3.24,0,1.94-1.57,3.5-3.5,3.5s-3.4-1.48-3.5-3.33c-.77,1-1.37,2.15-1.73,3.44-1.49,5.36,1.64,10.91,6.99,12.41,5.36,1.49,10.91-1.64,12.41-6.99,1.49-5.36-1.64-10.91-6.99-12.41Z" style="fill: url(#Degradado_sin_nombre_73);"/>
+</svg>
