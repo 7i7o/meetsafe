@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "~/components/NavBar";
 import banner from "~/assets/banner.svg";
 import profileimage from "~/assets/profile.svg";
@@ -9,8 +9,8 @@ import placeholderimage from "~/assets/placeholder.svg";
 import star from "~/assets/star.svg";
 
 function Profile() {
-  const initial = 0;
-  const [selected, setSelected] = useState(initial);
+  //const initial = 0;
+  // const [selected, setSelected] = useState(initial);
 
   return (
     <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
