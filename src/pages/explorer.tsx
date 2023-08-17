@@ -35,14 +35,14 @@ const explorer: React.FC = () => {
               className="h-full w-full rounded-full px-11 outline-none"
               placeholder="#psicologos #consultorias #diseño #tecnologia #wellness u otros servicios."
             />
-            <span className="hover:cursor-pointer">
+            <Link href={"/profile"} className="hover:cursor-pointer">
               <Image src={lupa} alt="lupa" width={70} height={70} />
-            </span>
+            </Link>
           </div>
 
           {/* <button */}
           <Link
-            href="login"
+            href="/profile"
             className="shadow- rounded-full bg-gradient-to-tr from-[#b578b0] to-[#c18c92] px-24 py-3 text-2xl font-bold text-white"
             style={{ boxShadow: "0 8px #3a3a39" }}
           >

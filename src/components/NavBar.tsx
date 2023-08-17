@@ -36,7 +36,10 @@ function NavBar(props: { button: string }) {
           Explore
         </Link>
         {status == "authenticated" && (
-          <button className="m-0 -mt-3 h-full p-0" onClick={() => disconnect()}>
+          <button
+            className={`m-0 ${button && "-mt-3"} h-full p-0`}
+            onClick={() => disconnect()}
+          >
             Disconnect
           </button>
         )}
