@@ -17,7 +17,7 @@ function Profile() {
 
   return (
     <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
-      <NavBar />
+      <NavBar button="" />
       <div className=" mt-32 flex h-full w-[85%] flex-col self-center rounded-[75px] bg-white pb-24">
         <div className="flex h-full w-full flex-col items-start gap-6 ">
           {
