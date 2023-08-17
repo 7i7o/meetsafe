@@ -96,7 +96,7 @@ export default function LandingModal(props: LandingModalProps) {
                 </div>
                 <div className="mt-6 flex items-center justify-center text-center text-6xl">
                   <Link
-                    href="/spectator"
+                    href="/explorer"
                     className={`w-fit rounded-full bg-[#fce93a] px-14 py-3 text-3xl font-semibold text-[#2d2d2c] ${hind.className}`}
                     style={{ boxShadow: "0 8px #3a3a39" }}
                   >
@@ -105,7 +105,7 @@ export default function LandingModal(props: LandingModalProps) {
                 </div>
                 <div className="my-6 flex items-center justify-center text-center text-6xl">
                   <Link
-                    href="/spectator"
+                    href="/login"
                     className={`w-fit rounded-full bg-none px-14 py-3 text-xl font-semibold text-blue-500 ${hind.className}`}
                   >
                     or you can login
