@@ -3,13 +3,20 @@
 import Link from "next/link";
 import React from "react";
 import { signOut, useSession } from "next-auth/react";
+import router from "next/router";
 
 function NavBar(props: { button: string }) {
   const { button } = props;
   const { status } = useSession();
+
+  const disconnect = async () => {
+    await signOut();
+    await router.push("/");
+  };
+
   return (
     <div className="absolute left-0 top-0 mt-8 flex w-full flex-row space-x-8 px-8 text-lg">
-      <div className="flex w-full flex-row space-x-8 text-lg">
+      <div className="flex w-full flex-row space-x-8 align-top text-lg">
         <Link href="/" className="hover:underline">
           Home
         </Link>
@@ -23,7 +30,7 @@ function NavBar(props: { button: string }) {
           Explore
         </Link>
         {status == "authenticated" && (
-          <button className="hover:underline" onClick={() => signOut()}>
+          <button className="m-0 -mt-3 h-full p-0" onClick={disconnect}>
             Disconnect
           </button>
         )}
