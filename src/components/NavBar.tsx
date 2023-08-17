@@ -3,7 +3,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="absolute left-0 top-0 ml-8 mt-8 flex w-full flex-row space-x-8 text-lg">
+    <div className="absolute left-0 top-0 mt-8 flex w-full flex-row space-x-8 pl-8 text-lg">
       <Link href="/" className="hover:underline">
         Home
       </Link>

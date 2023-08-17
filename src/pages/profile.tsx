@@ -5,17 +5,19 @@ import banner from "~/assets/banner.svg";
 import profileimage from "~/assets/profile.svg";
 import worldcoin from "~/assets/worldcoin.svg";
 import starts from "~/assets/stars.svg";
+import placeholderimage from "~/assets/placeholder.svg";
+import star from "~/assets/star.svg";
 
 function profile() {
   return (
     <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
       <NavBar />
-      <div className="mb-32 mt-32 flex h-screen w-[85%] flex-col self-center rounded-[75px] bg-white">
-        <div className="flex h-full w-full flex-col items-start">
+      <div className="mb-32 mt-32 flex h-full w-[85%] flex-col self-center rounded-[75px] bg-white pb-24">
+        <div className="flex h-full w-full flex-col items-start gap-6 ">
           {
             // image
           }
-          <div className="relative flex h-96 w-full">
+          <div className="relative flex h-96 min-h-[340px] w-full">
             <Image
               src={banner as string}
               fill={true}
@@ -65,17 +67,139 @@ function profile() {
               className="ml-8"
             />
             <p className="w-[88%] self-center pr-24 text-[#545452]">
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-              archivos de texto. Lorem Ipsum ha sido el texto de relleno
-              estándar de las industrias desde el año 1500, cuando un impresor
-              (N. del T. persona que se dedica a la imprenta) desconocido usó
-              una galería de textos y los mezcló de tal manera que logró hacer
-              un libro de textos especimen. No sólo sobrevivió 500 años
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also,Lorem Ipsum is simply
+              dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to
+              make a type specimen book. It has survived not only five
+              centuries, but also
             </p>
           </div>
+          {
+            // user profile
+          }
+          <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+            <div className="flex h-full w-full flex-col gap-7 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+              <h5 className="text-3xl font-semibold">Languages</h5>
+              <div className="flex flex-col gap-2">
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+            <div className="flex h-full w-full flex-col gap-7 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+              <h5 className="text-3xl font-semibold">
+                Certification and education
+              </h5>
+              <div className="flex flex-col gap-2">
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+            <div className="flex h-full w-full flex-col gap-7 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+              <h5 className="text-3xl font-semibold">Experience</h5>
+              <div className="flex flex-col gap-2">
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+            <div className="flex h-full w-full flex-row justify-start gap-20 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+              <div className=" w-2/3 rounded-2xl bg-white px-6 py-5">
+                <Image
+                  src={placeholderimage as string}
+                  alt="placeholder"
+                  height={250}
+                  width={250}
+                />
+              </div>
+              <div className="flex flex-col gap-7 pt-5">
+                <h5 className="text-3xl font-semibold">Portfolio</h5>
+                <div className="flex flex-col gap-2">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+            <div className="flex h-full w-full flex-col justify-start gap-5 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+              <h5 className="text-3xl font-semibold">Raitings</h5>
+              <div className="flex flex-row items-center">
+                <Image
+                  alt="star"
+                  src={star as string}
+                  width={100}
+                  height={100}
+                />
+                <p className="flex flex-row items-center gap-2 text-4xl font-bold">
+                  4.0<span className="text-2xl font-thin">{"(3)"}</span>
+                </p>
+              </div>
+              <div className="flex flex-col gap-3">
+                <div className="flex w-full flex-row items-center justify-center gap-2">
+                  <span className="text-lg font-semibold">5</span>
+                  <div className="h-2.5 w-full rounded-full bg-white">
+                    <div
+                      className="h-2.5 rounded-full bg-yellow-400"
+                      style={{ width: "90%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="flex w-full flex-row items-center justify-center gap-2">
+                  <span className="text-lg font-semibold">4</span>
+                  <div className="h-2.5 w-full rounded-full bg-white">
+                    <div
+                      className="h-2.5 rounded-full bg-yellow-400"
+                      style={{ width: "50%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="flex w-full flex-row items-center justify-center gap-2">
+                  <span className="text-lg font-semibold">3</span>
+                  <div className="h-2.5 w-full rounded-full bg-white">
+                    <div
+                      className="h-2.5 rounded-full bg-yellow-400"
+                      style={{ width: "0%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="flex w-full flex-row items-center justify-center gap-2">
+                  <span className="text-lg font-semibold">2</span>
+                  <div className="h-2.5 w-full rounded-full bg-white">
+                    <div
+                      className="h-2.5 rounded-full bg-yellow-400"
+                      style={{ width: "0%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="flex w-full flex-row items-center justify-center gap-2">
+                  <span className="text-lg font-semibold">1</span>
+                  <div className="h-2.5 w-full rounded-full bg-white">
+                    <div
+                      className="h-2.5 rounded-full bg-yellow-400"
+                      style={{ width: "30%" }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div></div>
       </div>
     </section>
   );
