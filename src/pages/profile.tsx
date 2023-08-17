@@ -9,6 +9,7 @@ import worldcoin from "~/assets/worldcoin.svg";
 import starts from "~/assets/stars.svg";
 import placeholderimage from "~/assets/placeholder.svg";
 import star from "~/assets/star.svg";
+import lockv2 from "~/assets/lockv2.svg";
 import Plans from "~/components/Plans";
 
 function Profile() {
@@ -232,7 +233,51 @@ function Profile() {
               </div>
             </div>
           ) : selected == 1 ? (
-            <div></div>
+            <div className="flex w-full flex-col gap-9">
+              <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+                <div className="flex h-full w-full flex-row items-center gap-4 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+                  <div className="flex flex-col gap-2">
+                    <Image
+                      src={lockv2 as string}
+                      alt="lock"
+                      width={45}
+                      height={45}
+                    />
+                  </div>
+                  <h5 className="text-3xl font-semibold">Private chat</h5>
+                </div>
+              </div>
+              <div className="ml-20 flex w-[85%] flex-row items-center justify-center">
+                <div className="flex h-full w-full flex-row items-center gap-4 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+                  <div className="flex flex-col gap-2">
+                    <Image
+                      src={lockv2 as string}
+                      alt="lock"
+                      width={45}
+                      height={45}
+                    />
+                  </div>
+                  <h5 className="text-3xl font-semibold">
+                    Diffusion channel #1
+                  </h5>
+                </div>
+              </div>
+              <div className="ml-20 flex w-[85%] flex-col items-center justify-center">
+                <div className="flex h-full w-full flex-row items-center gap-4 rounded-3xl bg-gray-200 px-10 py-8 text-[#545452]">
+                  <div className="flex flex-col gap-2">
+                    <Image
+                      src={lockv2 as string}
+                      alt="lock"
+                      width={45}
+                      height={45}
+                    />
+                  </div>{" "}
+                  <h5 className="text-3xl font-semibold">
+                    Diffusion channel #2
+                  </h5>
+                </div>
+              </div>
+            </div>
           ) : (
             <div className="flex w-full flex-row items-center justify-center gap-10 self-center py-12 pr-16">
               <Plans
