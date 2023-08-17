@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { signOut } from "next-auth/react"
 
 function NavBar() {
   return (
@@ -16,6 +17,7 @@ function NavBar() {
       <Link href="/explorer" className="hover:underline">
         Explore
       </Link>
+      <button className="hover:underline" onClick={() => signOut()}> Disconnect</button>
     </div>
   );
 }

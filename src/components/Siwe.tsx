@@ -11,7 +11,8 @@ import { getCsrfToken, signIn, useSession } from "next-auth/react";
 import { SiweMessage } from "siwe";
 import { useAccount, useConnect, useNetwork, useSignMessage } from "wagmi";
 import { InjectedConnector } from "wagmi/connectors/injected";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import router from "next/router";
 
 function Siwe() {
   const { signMessageAsync } = useSignMessage();
@@ -20,11 +21,13 @@ function Siwe() {
   const { connect } = useConnect({
     connector: new InjectedConnector(),
   });
+  const [buttonText, setButtonText] = useState("Connect");
+
   const { data: session } = useSession();
 
   const handleLogin = async () => {
     try {
-      const callbackUrl = "/protected";
+      const callbackUrl = "/explore";
       const message = new SiweMessage({
         domain: window.location.host,
         address: address,
@@ -45,15 +48,25 @@ function Siwe() {
       });
     } catch (error) {
       window.alert(error);
+
     }
   };
 
   useEffect(() => {
-    console.log(isConnected);
-    if (isConnected && !session) {
-      handleLogin();
+    if (!isConnected) {
+      setButtonText("Connect");
+    } else {
+      setButtonText("Sign in");
     }
   }, [isConnected]);
+
+
+  useEffect(() => {
+    console.log(session);
+    if (session) {
+      router.push("/explorer")
+    }
+  }, [session]);
 
   return (
     <button
@@ -85,8 +98,9 @@ function Siwe() {
           ></path>
         </svg>
       </span>
-      <span className="relative">{"Log in"}</span>
+      <span className="relative">{buttonText}</span>
     </button>
+
   );
 }
 
@@ -97,5 +111,4 @@ export async function getServerSideProps(context: any) {
     },
   };
 }
-
 export default Siwe;
