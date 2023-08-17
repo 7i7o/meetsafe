@@ -17,8 +17,8 @@ export default function WorldCoinModal(props: LandingModalProps) {
 
   const { loginWithRedirect } = useAuth0();
 
-  const verify = () => {
-    loginWithRedirect();
+  const verify = async () => {
+    await loginWithRedirect();
   };
 
   return (

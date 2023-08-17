@@ -16,8 +16,8 @@ function NavBar(props: { button: string }) {
     await signOut();
   };
 
-  const verify = () => {
-    loginWithRedirect();
+  const verify = async () => {
+    await loginWithRedirect();
   };
 
   return (
