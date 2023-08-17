@@ -6,9 +6,7 @@ import profileimage from "~/assets/profile.svg";
 import worldcoin from "~/assets/worldcoin.svg";
 import starts from "~/assets/stars.svg";
 
-type Props = {};
-
-function profile({}: Props) {
+function profile() {
   return (
     <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
       <NavBar />
@@ -19,7 +17,7 @@ function profile({}: Props) {
           }
           <div className="relative flex h-96 w-full">
             <Image
-              src={banner}
+              src={banner as string}
               fill={true}
               alt="banner"
               className="rounded-tl-[75px] rounded-tr-[75px]"
@@ -60,7 +58,7 @@ function profile({}: Props) {
           </div>
           <div className="mt-3 flex flex-col">
             <Image
-              src={starts}
+              src={starts as string}
               alt="stars"
               width={340}
               height={400}
