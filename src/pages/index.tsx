@@ -25,7 +25,7 @@ const MainPage: React.FC = () => {
             zIndex: "-1",
           }}
         />
-        <NavBar />
+        <NavBar button="" />
         <div className="flex flex-col items-center space-y-8">
           <Image
             src={logo as string}

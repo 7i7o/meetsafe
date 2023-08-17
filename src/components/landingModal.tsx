@@ -96,7 +96,7 @@ export default function LandingModal(props: LandingModalProps) {
                 </div>
                 <div className="mt-6 flex items-center justify-center text-center text-6xl">
                   <Link
-                    href="/explorer"
+                    href="/explorerAnon"
                     className={`w-fit rounded-full bg-[#fce93a] px-14 py-3 text-3xl font-semibold text-[#2d2d2c] ${hind.className}`}
                     style={{ boxShadow: "0 8px #3a3a39" }}
                   >
