@@ -30,7 +30,7 @@ function profile() {
           <div className="flex w-full flex-row">
             <div className="relative -mt-32 ml-16 flex h-64 w-64 rounded-full bg-white">
               <Image
-                src={profileimage}
+                src={profileimage as string}
                 fill={true}
                 alt="banner"
                 className="rounded-full"
@@ -42,7 +42,7 @@ function profile() {
                 <div className="flex flex-row items-center justify-center gap-2">
                   <h3 className="text-4xl font-semibold ">Alexis Bennett</h3>
                   <Image
-                    src={worldcoin}
+                    src={worldcoin as string}
                     alt="wordlcoin"
                     width={45}
                     height={45}
@@ -74,7 +74,8 @@ function profile() {
             </p>
           </div>
         </div>
-        <div>another container</div>
+
+        <div></div>
       </div>
     </section>
   );
