@@ -9,15 +9,16 @@ import worldcoin from "~/assets/worldcoin.svg";
 import starts from "~/assets/stars.svg";
 import placeholderimage from "~/assets/placeholder.svg";
 import star from "~/assets/star.svg";
+import Plans from "~/components/Plans";
 
 function Profile() {
   const initial = 0;
   const [selected, setSelected] = useState(initial);
 
   return (
-    <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
+    <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
       <NavBar />
-      <div className="mb-32 mt-32 flex h-full w-[85%] flex-col self-center rounded-[75px] bg-white pb-24">
+      <div className=" mt-32 flex h-full w-[85%] flex-col self-center rounded-[75px] bg-white pb-24">
         <div className="flex h-full w-full flex-col items-start gap-6 ">
           {
             // image
@@ -233,10 +234,24 @@ function Profile() {
           ) : selected == 1 ? (
             <div></div>
           ) : (
-            <div></div>
+            <div className="flex w-full flex-row items-center justify-center gap-10 self-center py-12 pr-16">
+              <Plans
+                title={"Starter"}
+                price={10}
+                check3={false}
+                check4={false}
+              />
+              <Plans
+                title={"Exclusive"}
+                price={15}
+                check3={true}
+                check4={true}
+              />
+            </div>
           )}
         </div>
       </div>
+      <p className="py-20 text-center text-2xl text-[#545452]">MeetSafe</p>
     </section>
   );
 }
