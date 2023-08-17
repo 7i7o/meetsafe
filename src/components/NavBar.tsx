@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-misused-promises */
+
 import Link from "next/link";
 import React from "react";
 import { signOut } from "next-auth/react"

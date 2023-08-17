@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/ban-types */
 import Image from "next/image";
 import React from "react";
 import NavBar from "~/components/NavBar";
@@ -8,7 +10,7 @@ import starts from "~/assets/stars.svg";
 
 type Props = {};
 
-function profile({}: Props) {
+function profile({ }: Props) {
   return (
     <section className="flex h-full w-full flex-col gap-2 bg-gradient-to-r from-black to-[#545452] text-gray-200">
       <NavBar />
