@@ -32,9 +32,7 @@ function NavBar(props: { button: string }) {
         <Link href="#" className="hover:underline">
           Why MeetSafe
         </Link>
-        <Link href="/explorer" className="hover:underline">
-          Explore
-        </Link>
+
         {status == "authenticated" && (
           <button
             className={`m-0 ${button && "-mt-3"} h-full p-0`}
