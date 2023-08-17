@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/ban-types */
 import Image from "next/image";
 import React from "react";
 import NavBar from "~/components/NavBar";
